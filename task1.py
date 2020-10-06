@@ -22,7 +22,7 @@ Enter the index for an animal:2
 The animal at that index is Dog
 """
 
-x = int(input("Enter a number: "))
+x = int(input("Enter a number: ")).strip()
 
 animals = ["Cat", "Fish", "Dog", "Bear", "Turtle"] 
 
