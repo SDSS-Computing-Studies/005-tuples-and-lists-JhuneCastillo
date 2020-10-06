@@ -19,3 +19,16 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+
+listName = ["Alain", "Brian", "Chris", "Justin", "Angela", "Rick"]
+print(listName)
+
+replaceName = str(input("Choose a person from list to replace: ")).strip()
+
+replacementName = str(input("Enter the replacement: ")).strip()
+
+index = listName.index(replaceName)
+listName.remove(replaceName)
+listName.insert(index, replacementName)
+
+print(listName)
