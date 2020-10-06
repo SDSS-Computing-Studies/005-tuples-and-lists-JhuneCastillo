@@ -33,6 +33,7 @@ x = str(input("Enter a fruit from the list: ")).strip()
 if x not in fruit:
     fruit.append(x)
     print("word not in list")
+    print(fruit)
 elif x in fruit:
     for i in fruit:
         if i == x:
